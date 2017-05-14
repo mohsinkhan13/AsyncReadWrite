@@ -23,15 +23,15 @@ namespace AsyncReadWrite.IO
                     bufferSize: 4096, useAsync: false))
                 {
                     StreamReader reader = new StreamReader(sourceStream);
-                    string text = string.Empty;
+                    string textToDisplay = string.Empty;
                     while (reader.Peek() > -1)
                     {
                         string newline =  reader.ReadLine();
                         if (newline != "\0")
-                            text = newline;
+                            textToDisplay = newline;
                     }
 
-                    Console.WriteLine(text.Trim());
+                    Console.WriteLine(textToDisplay.Trim());
 
                 };
                 await Task.Delay(frequencyInSeconds*1000, CancellationToken);
