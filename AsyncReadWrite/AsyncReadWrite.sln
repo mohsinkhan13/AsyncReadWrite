@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncReadWrite.IO", "AsyncReadWrite.IO\AsyncReadWrite.IO.csproj", "{4E61A738-B494-4950-87F9-9A218ADA1266}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncReadWrite.Console", "AsyncReadWrite.Console\AsyncReadWrite.Console.csproj", "{5AD62625-F452-4313-9F8E-2C4BCD7704A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4E61A738-B494-4950-87F9-9A218ADA1266}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E61A738-B494-4950-87F9-9A218ADA1266}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E61A738-B494-4950-87F9-9A218ADA1266}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AD62625-F452-4313-9F8E-2C4BCD7704A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AD62625-F452-4313-9F8E-2C4BCD7704A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AD62625-F452-4313-9F8E-2C4BCD7704A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AD62625-F452-4313-9F8E-2C4BCD7704A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
